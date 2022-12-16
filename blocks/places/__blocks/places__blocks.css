@@ -1,7 +1,6 @@
 .places__blocks {
   margin: 0;
   padding: 0;
-  width: 984px;
   list-style: none;
   display: flex;
   flex-direction: column;
