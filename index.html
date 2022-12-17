@@ -17,13 +17,15 @@
           alt="Карта России"
           class="header__logo"
         />
-        <ul class="header__lang-link">
-          <li>
-            <a href="#" class="header__lang-link-ru header__lang-link-ru_active"
+        <ul class="header__lang">
+          <li class="header__lang-part">
+            <a href="#" class="header__lang-link header__lang-link_active"
               >Ru</a
             >
           </li>
-          <li><a href="#" class="header__lang-link-en">En</a></li>
+          <li class="header__lang-part">
+            <a href="#" class="header__lang-link">En</a>
+          </li>
         </ul>
       </header>
       <!--Лид-->
@@ -56,21 +58,24 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li><p class="intro__list-element">Часовых поясов 11</p></li>
+            <li><span class="intro__list-element">Часовых поясов</span> 11</li>
             <li>
-              <p class="intro__list-element">
-                Объектов природного наследия ЮНЕСКО 12
-              </p>
+              <span class="intro__list-element"
+                >Объектов природного наследия ЮНЕСКО</span
+              >
+              12
             </li>
             <li>
-              <p class="intro__list-element">
-                Объектов культурного наследия ЮНЕСКО 16
-              </p>
+              <span class="intro__list-element"
+                >Объектов культурного наследия ЮНЕСКО</span
+              >
+              16
             </li>
             <li>
-              <p class="intro__list-element">Природных заповедников 105</p>
+              <span class="intro__list-element">Природных заповедников</span>
+              105
             </li>
-            <li><p class="intro__list-element">Аэропортов 241</p></li>
+            <li><span class="intro__list-element">Аэропортов</span> 241</li>
           </ul>
         </section>
         <!--Фото-галерея-->
@@ -143,7 +148,7 @@
             <li class="place">
               <h3 class="place__title">Куршская коса</h3>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
+                <p class="place__url-heading">url</p>
                 <a
                   href="http://park-kosa.ru"
                   target="_blank"
@@ -177,7 +182,7 @@
             <li class="place">
               <h3 class="place__title">Кольский</h3>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
+                <p class="place__url-heading">url</p>
                 <a
                   href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                   target="_blank"
@@ -211,7 +216,7 @@
             <li class="place">
               <h3 class="place__title">Алтай</h3>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
+                <p class="place__url-heading">url</p>
                 <a
                   href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                   target="_blank"
@@ -245,7 +250,7 @@
             <li class="place">
               <h3 class="place__title">Зимний Байкал</h3>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
+                <p class="place__url-heading">url</p>
                 <a
                   href="https://vk.com/baikalmile "
                   target="_blank"
@@ -278,7 +283,7 @@
             <li class="place">
               <h3 class="place__title">Карелия</h3>
               <div class="place__website">
-                <p class="place__url-heading">URL</p>
+                <p class="place__url-heading">url</p>
                 <a
                   href="http://vodlozero.ru"
                   target="_blank"
@@ -324,7 +329,7 @@
       </main>
       <!--Футер-->
       <footer class="footer">
-        <div class="footer__container">
+        <nav class="footer__container">
           <ul class="footer__links">
             <li class="footer__item">
               <a
@@ -368,7 +373,7 @@
             </li>
           </ul>
           <p class="footer__copyright">&#169; 2022. Ващук Алексей</p>
-        </div>
+        </nav>
       </footer>
     </div>
   </body>
